@@ -5,9 +5,9 @@ interface Props {
 }
 function Forecast(props: Props) {
   return (
-    <Forecast
-     
-    />
+    <>
+
+    </>
   );
 }
 

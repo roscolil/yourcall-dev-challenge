@@ -5,9 +5,9 @@ interface Props {
 }
 function NavBar(props: Props) {
   return (
-    <NavBar
+    <>
      
-    />
+    </>
   );
 }
 

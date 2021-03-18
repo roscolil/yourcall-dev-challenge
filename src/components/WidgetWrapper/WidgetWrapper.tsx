@@ -5,9 +5,9 @@ interface Props {
 }
 function WidgetWrapper(props: Props) {
   return (
-    <WidgetWrapper
+    <>
      
-    />
+    </>
   );
 }
 

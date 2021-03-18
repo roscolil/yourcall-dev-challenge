@@ -77,3 +77,9 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 - Used create-react-app with the typescript setting to bootstrap this application.
 - Worked out of master branch (instead of separate feature branches) but made regular commits using commitizen to format the commit messeges.
 - Used gooogle fonts link tag instead of @import url
+- Linting, tests and/or pre-commit hooks being used as part of the deployment pipeline??
+- Used default formatting
+- Can run `yarn test` to launch test runner in watch mode
+- Abstracted the components into respective directories but kept styling and query within the component templates.
+
+
