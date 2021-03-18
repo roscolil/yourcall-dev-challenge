@@ -68,3 +68,12 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `yarn build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+# Yourcall weather widget
+
+<!-- TODO update readme -->
+
+- Used create-react-app with the typescript setting to bootstrap this application.
+- Worked out of master branch (instead of separate feature branches) but made regular commits using commitizen to format the commit messeges.
+- Used gooogle fonts link tag instead of @import url
