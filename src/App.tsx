@@ -1,24 +1,21 @@
 import logo from './logo.svg';
 import Img from './components/Img'
+import GlobalStyle from './index'
 import './App.ts';
+import WidgetWrapper from './components/WidgetWrapper/WidgetWrapper';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+      <GlobalStyle />
+      {/* <header className="App-header">
         <Img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+        <p>This is the test Widget</p>
+        
+      </header> */}
+      <WidgetWrapper>
+        <p>This is the weather widget app</p>
+      </WidgetWrapper>
     </div>
   );
 }

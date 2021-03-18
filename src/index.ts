@@ -1,10 +1,12 @@
-import styled from 'styled-components';
+import { createGlobalStyle } from 'styled-components';
 
-const Index = styled.div`
-  
+const GlobalStyle = createGlobalStyle`
+  body {
+    font-family: 'Ubuntu', sans-serif;
+  }
 `;
 
-export default Index;
+export default GlobalStyle;
 
 
 
