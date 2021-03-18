@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
-const Forecast = styled.div`
+const StyledForecast = styled.div`
 
 `;
 
-export default Forecast;
+export default StyledForecast;

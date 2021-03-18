@@ -1,7 +1,6 @@
 import styled from 'styled-components';
 
-const NavBar = styled.div`
- 
+const StyledNavBar = styled.div`
 `;
 
-export default NavBar;
+export default StyledNavBar;
