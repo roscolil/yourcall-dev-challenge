@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-const StyledContainer = styled.div`
+ export const StyledContainer = styled.div`
   position: relative;
   display: flex;
   width: 794px;
@@ -11,4 +11,12 @@ const StyledContainer = styled.div`
   justify-content: center;
 `;
 
-export default StyledContainer;
+export const Wrapper = styled.div`
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  margin: 171px auto 85px auto;
+  justify-content: center;
+  width: 664px;
+  height: 401px;
+`
