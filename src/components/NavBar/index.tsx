@@ -1,15 +1,18 @@
-import * as React from 'react';
-import StyledNavBar from './NavBar'
+import React from 'react';
+import { StyledNavBar, Button, Line } from './NavBar'
 
-interface Props {
+interface NavBarProps {
 
 }
-function NavBar(props: Props) {
-  return (
-    <StyledNavBar>
-      <span>This is the widget navbar</span>
-    </StyledNavBar>
-  );
-}
+const NavBar: React.FC<NavBarProps> = ({ }) =>
+(
+  <StyledNavBar>
+    <Button>MELBOURNE</Button>
+    <Line />
+    <Button>SYDNEY</Button>
+    <Line />
+    <Button>BRISBANE</Button>
+  </StyledNavBar>
+);
 
 export default NavBar;
