@@ -7,7 +7,7 @@ interface Props {
 function NavBar(props: Props) {
   return (
     <StyledNavBar>
-      <p>This is the widget navbar</p>
+      <span>This is the widget navbar</span>
     </StyledNavBar>
   );
 }

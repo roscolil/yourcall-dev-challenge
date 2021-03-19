@@ -1,17 +1,15 @@
-import * as React from 'react';
-import Container from "../Container";
+import Container from "../Container"
 import StyledWeatherCard from './WeatherCard'
 
-interface Props {
+interface WeatherCardProps {
 
 }
 
-function WeatherCard(props: Props) {
-  return (
-    <StyledWeatherCard>
-      <Container />
-    </StyledWeatherCard>
-  );
-}
+const WeatherCard: React.FC<WeatherCardProps> = ({ }) =>
+(
+  <StyledWeatherCard>
+    <Container />
+  </StyledWeatherCard>
+);
 
 export default WeatherCard;

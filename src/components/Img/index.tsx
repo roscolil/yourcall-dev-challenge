@@ -1,19 +1,17 @@
 import * as React from 'react';
 
- interface Props {
-   src: string | object;
-   alt?: string;
-   className?: string;
- }
- function Img(props: Props) {
-   return (
-     <img
-       className={props.className}
-       src={props.src as string}
-       alt={props.alt}
-     />
-   );
- }
- 
- export default Img;
- 
+interface ImgProps {
+  src: string | object;
+  alt?: string;
+  className?: string;
+}
+const Img: React.FC<ImgProps> = ({ src, alt, className }) =>
+(
+  <img
+    className={className}
+    src={src as string}
+    alt={alt}
+  />
+);
+
+export default Img;

@@ -1,4 +1,3 @@
-import * as React from 'react';
 import StyledCurrent from './Current'
 interface Props {
 
@@ -6,7 +5,7 @@ interface Props {
 function Current(props: Props) {
   return (
     <StyledCurrent>
-
+      <span>This is the current weather section</span>
     </StyledCurrent>
   );
 }
