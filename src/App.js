@@ -1,19 +1,16 @@
-import logo from './logo.svg';
-import Img from './components/Img'
-import GlobalStyle from './index'
+import React, { Fragment } from 'react'
+import GlobalStyle from './globalStyles'
 import './App';
 import WeatherCard from './components/WeatherCard';
 
-
 function App() {
   return (
-    <div className="App">
+    <Fragment>
       <GlobalStyle />
-
       {/* <Img src={logo} className="App-logo" alt="logo" /> */}
 
       <WeatherCard />
-    </div>
+    </Fragment>
   );
 }
 

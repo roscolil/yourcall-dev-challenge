@@ -80,6 +80,8 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 - Linting, tests and/or pre-commit hooks being used as part of the deployment pipeline??
 - Used default formatting
 - Can run `yarn test` to launch test runner in watch mode
-- Abstracted the components into respective directories but kept styling and query within the component templates.
+- Abstracted the components and stylesheets into respective directories but kept  queries within the component templates.
+- Assumed that this design is not responsive as there is no mention of this in the brief.
+- Kept API key in code for ease of review.
 
 
