@@ -1,5 +1,5 @@
 import React from 'react';
-import { StyledNavBar, Button, Line } from './NavBar'
+import { StyledNavBar, StyledButton, Line } from './NavBar'
 
 interface NavBarProps {
 
@@ -7,11 +7,11 @@ interface NavBarProps {
 const NavBar: React.FC<NavBarProps> = ({ }) =>
 (
   <StyledNavBar>
-    <Button>MELBOURNE</Button>
+    <StyledButton>MELBOURNE</StyledButton>
     <Line />
-    <Button>SYDNEY</Button>
+    <StyledButton>SYDNEY</StyledButton>
     <Line />
-    <Button>BRISBANE</Button>
+    <StyledButton>BRISBANE</StyledButton>
   </StyledNavBar>
 );
 

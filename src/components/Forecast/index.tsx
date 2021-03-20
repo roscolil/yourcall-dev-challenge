@@ -1,14 +1,42 @@
-import React from 'react';
-import StyledForecast from './Forecast'
-interface Props {
+import React, { Fragment } from 'react';
+import GlobalStyle from '../../globalStyles';
+import { StyledForecast, Grid, Row, Col, Span } from './Forecast'
+import Img from '../Img'
+interface ForecastProps {
 
 }
-function Forecast(props: Props) {
-  return (
+const Forecast: React.FC<ForecastProps> = ({ }) =>
+(
+  <Fragment>
+    <GlobalStyle />
     <StyledForecast>
-      <span>This is the forcast weather section</span>
+      <Grid>
+        <Col>
+          <Row>
+            <h4>Forecast For Tomorrow</h4>
+          </Row>
+          <Row>
+            <h5>23 February</h5>
+          </Row>
+        </Col>
+        <Col>
+          <Row>
+            <Span>13.9</Span>
+          </Row>
+        </Col>
+        <Col>
+          <Row>
+            <h5>Cloudy and Windy</h5>
+          </Row>
+        </Col>
+        <Col>
+          <Row>
+            <Img src={"https://via.placeholder.com/65"} className="" alt="" />
+          </Row>
+        </Col>
+      </Grid>
     </StyledForecast>
-  );
-}
+  </Fragment>
+);
 
 export default Forecast;

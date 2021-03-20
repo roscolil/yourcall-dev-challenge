@@ -9,7 +9,7 @@ export const StyledNavBar = styled.div`
   justify-content: space-between;
 `;
 
-export const Button = styled.button`
+export const StyledButton = styled.button`
   border: 2px solid #000000;
   box-sizing: border-box;
   background: #FFFFFF;
@@ -17,9 +17,16 @@ export const Button = styled.button`
   height: 50px;
   width: 177px;
   font-weight: 500;
-  line-height: 20px;
+  font-style: normal;
+  line-height: 21px;
+  letter-spacing: 0.015em;
+  text-transform: uppercase;
   font-size: 18px;
   z-index: 2;
+`
+
+export const SelectedButton = styled(StyledButton)`
+
 `
 
 export const Line = styled.span`
