@@ -1,5 +1,4 @@
 import * as React from 'react';
-
 interface ImgProps {
   src: string | object;
   alt?: string;
