@@ -1,8 +1,22 @@
-# Getting Started with Create React App
+# Yourcall weather widget
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+- Used create-react-app with the typescript setting to bootstrap this application.
+- Worked out of master branch (instead of separate feature branches) but made regular commits using commitizen to format the commit messeges.
+- Used gooogle fonts link tag instead of @import url
+- Linting, tests and/or pre-commit hooks being used as part of the deployment pipeline??
+- Used default formatting
+- Can run `yarn test` to launch test runner in watch mode
+- Abstracted the components and stylesheets into respective directories but kept  queries within the component templates.
+- Assumed that this design is not responsive as there is no mention of this in the brief.
+- Used pixel units directly from figma design instead of relavtive units
+- Kept API key in pupblished code for ease of review.
 
-## Available Scripts
+- I had some issues with the Graphql/Typescript but made an attempt and would appreciate any feedback
+
+----------------------------------------------
+
+
+
 
 In the project directory, you can run:
 
@@ -39,49 +53,6 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-
-
-# Yourcall weather widget
-
-<!-- TODO update readme -->
-
-- Used create-react-app with the typescript setting to bootstrap this application.
-- Worked out of master branch (instead of separate feature branches) but made regular commits using commitizen to format the commit messeges.
-- Used gooogle fonts link tag instead of @import url
-- Linting, tests and/or pre-commit hooks being used as part of the deployment pipeline??
-- Used default formatting
-- Can run `yarn test` to launch test runner in watch mode
-- Abstracted the components and stylesheets into respective directories but kept  queries within the component templates.
-- Assumed that this design is not responsive as there is no mention of this in the brief.
-- Kept API key in code for ease of review.
 
 
