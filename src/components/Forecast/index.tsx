@@ -1,7 +1,7 @@
 import React, { Fragment } from 'react';
 import GlobalStyle from '../../globalStyles';
 import { StyledForecast, Grid, Row, Col, Span } from './Forecast'
-import Img from '../Img'
+import Icon from '../Icon'
 interface ForecastProps {
 
 }
@@ -31,7 +31,7 @@ const Forecast: React.FC<ForecastProps> = ({ }) =>
         </Col>
         <Col>
           <Row>
-            <Img src={"https://via.placeholder.com/65"} className="" alt="" />
+            <Icon src={"https://via.placeholder.com/65"} className="" alt="" />
           </Row>
         </Col>
       </Grid>

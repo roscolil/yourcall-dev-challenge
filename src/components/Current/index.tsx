@@ -4,7 +4,7 @@ import { StyledCurrent, Grid, Row, Body, Col, Heading, H1 } from './Current'
 import GlobalStyle from '../../globalStyles'
 import { useQuery } from '@apollo/client'
 import { GET_WEATHER } from '../../GraphQL/queries'
-import Img from '../Img'
+import Icon from '../Icon'
 
 interface CurrentProps {
   // data: GetCurrentWeatherQuery
@@ -34,7 +34,7 @@ const Current: React.FC<CurrentProps> = ({ }) => {
             </Col>
             <Col>
               <Row>
-                <Img src={"https://via.placeholder.com/65"} className="" alt="" />
+                <Icon src={"https://via.placeholder.com/65"} className="" alt="" />
               </Row>
               <Row>
                 <h5>Cloudy and Windy</h5>
