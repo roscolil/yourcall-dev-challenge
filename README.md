@@ -6,7 +6,6 @@
 - Linting, tests and/or pre-commit hooks being used as part of the deployment pipeline??
 - Used default formatting
 - Can run `yarn test` to launch test runner in watch mode
-- Abstracted the components and stylesheets into respective directories but kept  queries within the component templates.
 - Assumed that this design is not responsive as there is no mention of this in the brief.
 - Used pixel units directly from figma design instead of relavtive units
 - Kept API key in pupblished code for ease of review.
