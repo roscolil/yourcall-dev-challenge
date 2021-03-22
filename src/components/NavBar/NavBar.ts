@@ -26,7 +26,8 @@ export const StyledButton = styled.button`
 `
 
 export const SelectedButton = styled(StyledButton)`
-
+  color: #FFFFFF;
+  background: #000000;
 `
 
 export const Line = styled.span`

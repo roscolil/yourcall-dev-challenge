@@ -35,17 +35,21 @@ export const Heading = styled.div`
 `
 
 export const Row = styled.div`
+  position: relative;
+  top: 25px;
   display: flex;
   align-items: center;
   margin: 10px 0;
 `
 
 export const H1 = styled.h1`
-    font-weight: 300;
-    font-style: normal;
-    font-size: 200px;
-    line-height: 230px;
-    letter-spacing: 0.015em;
-    margin: 0;
-    text-transform: uppercase;
+  position: relative;
+  top: -65px;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 200px;
+  line-height: 230px;
+  letter-spacing: 0.015em;
+  margin: 0;
+  text-transform: uppercase;
 `
